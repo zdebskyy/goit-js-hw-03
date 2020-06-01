@@ -17,22 +17,24 @@ const products = [
         return [];
       }
 
-      // ЭТО НЕ ЧИТЕРСТВО, ТО ЧТО СВЕРХУ? ПОТОМУ ЧТО ДО ЭТОГО БЫЛО КАК ВНИЗУ.
-
-      // if(prop !== product[prop]){
-      // return [];  
-      // }
-
-      //НЕ ПОНИМАЮ КАК ЕЩЕ ПО ДРУГОМУ ВЕРНУТЬ ПУСТОЙ МАССИВ
-       // есть подозрение что это не пустой массив через ретерн а сам по себе пустой массив
-       //но в таком случае я в тупике(((
-
     }
 
     return properties;
    
   };
   
+
+  // const getAllPropValues = function (arr, prop) {
+  //   const properties = [];
+    
+  //   for (const product of arr) {
+  //   if (product[prop] !== undefined) {
+  //   properties.push(product[prop]);
+  //   }
+  //   }
+  //   return properties;
+  //   };
+
 
   console.log(getAllPropValues(products, 'name')); // ['Радар', 'Сканер', 'Дроид', 'Захват']
   
